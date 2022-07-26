@@ -1,0 +1,24 @@
+h1,h2,h3,h4{
+    background-color: black;
+    color: white;
+    padding: 20px 0px 20px 20px
+}
+p{
+   padding: 20px 0px 20px 20px
+}
+body {
+    margin-left: 20px;
+    margin-right: 50px;
+}
+.some_works a:visited{
+    color: white;  
+}
+.some_works a:link{
+    text-decoration: none;  
+}
+.some_works a:hover{
+    color: aqua;  
+}
+.some_works a:active{
+    color: red;
+}

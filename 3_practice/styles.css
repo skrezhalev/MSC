@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+
+    h1{
+        background-color: black;
+        color: white;
+        padding: 80px 890px 80px 80px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;   
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .image{
+    height: 1080px;
+    background: url(images/cat.jpg) no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    }
+
+    h2{
+        height: 100px;
+        width: 1440px;
+        background-color: black;
+        color: white;
+        padding: 36px 425px 35px 80px;
+        margin-bottom: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+    p{
+        height: 637px;
+        width: 1280px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        padding: 10px 80px 300px 80px;
+        font-size: 200%;     
+    }
+
+    .footer{
+        display: flex;
+        justify-content: space-between;
+        height: 200px;
+        background-color: aqua;
+    }
+
+    .footer-logo{
+        padding: 77px 0 77px 80px;
+    }
+
+    .footer-text{
+        padding: 77px 80px 77px 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 200%; 
+    }
