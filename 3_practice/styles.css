@@ -21,7 +21,6 @@
 
     h2{
         height: 100px;
-        width: 1440px;
         background-color: black;
         color: white;
         padding: 36px 425px 35px 80px;
@@ -31,7 +30,6 @@
 
     p{
         height: 637px;
-        width: 1280px;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
         padding: 10px 80px 300px 80px;
         font-size: 200%;     
