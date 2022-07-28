@@ -4,7 +4,8 @@
     box-sizing: border-box;}
 
     h1,h2{
-    
+        display: flex;
+        justify-content: space-between;
         background-color: blue;
         color: white;
         padding: 20px 0px 20px 20px;
@@ -15,17 +16,18 @@
 
 .poem{
     display: flex;
-    justify-content: space-between;
-    margin: 100px 100px 100px 100px;
-    
+    padding: 100px 0 100px 0;
+    justify-content: center;
+      
 }
 
-.text1,.text2,.text3{
+.text{
     display: flex;
     justify-content: center;
     border: 2px solid red;
     padding: 10px;
     border-radius: 20px;
+    margin: 25px 25px 25px 25px;
     
 }
 
