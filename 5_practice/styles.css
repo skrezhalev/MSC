@@ -22,15 +22,15 @@ a:hover{
 }
 
 .header{
-    width: 1440px;
-    padding: 40px;
+    width: 100%;
+    padding: 20px;
     position: fixed;
     top: 0;
     left: 0;   
     display: flex;
     justify-content: space-between;
-    background: white;
-    border: 2px solid rgb(30, 255, 0);   
+    background: aquamarine;
+     
 }
 
 .menu{
@@ -51,7 +51,6 @@ a:hover{
     height: 500px;
     background: url(images/adulter.jpg);
     background-size: cover;
-    border: 2px solid red;
     margin: 200px 0 40px 430px;   
 }
 
@@ -64,7 +63,7 @@ h1{
 }
    
 .text{
-    border: 3px solid red;
+    border: 2px solid red;
     padding: 20px;
     border-radius: 20px;
     margin: 100px 200px 100px 200px; 
@@ -74,26 +73,20 @@ h1{
 .conteiner{
  display: flex;
  justify-content: space-around;
- border: 2px solid black;
- width: 1440px;
-
+ width: 100%;
 }
 
 .box{
     display: flex;
     justify-content: space-around;
-    background-color: white;
-    border: 2px solid red; 
+    background-color: white; 
     margin: 30px 60px 30px 60px;
     flex-direction: column;
     width: 300px;
-    
-   
 }
 
 .t1,.t2,.t3{
     font-size: 15px; 
-    border: 2px solid black;
 }
 
 .models{
@@ -102,8 +95,6 @@ h1{
 }
 
 .t4{
-    
-    border: 2px solid black;
     padding: 20px; 
 }
 
@@ -114,11 +105,18 @@ h1{
 
 .footer{ 
     display: flex;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: 1440px;
-    height: 40px;
-    border: 2px solid black;
-   
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+       
+}
+
+h2{
+    padding: 20px;
+}
+
+.back{
+    margin: 27px 50px 20px 0;
+    
 }
