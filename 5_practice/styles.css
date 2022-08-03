@@ -47,26 +47,33 @@ a:hover{
 }
 
 .ad{
-    width: 500px;
-    height: 500px;
+    width: 100%;
+    height: 1500px;
     background: url(images/adulter.jpg);
     background-size: cover;
-    margin: 200px 0 40px 430px;   
+    margin-top: 135px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+
+      
 }
 
 h1{
-    display: flex;
-    justify-content:center;
-    padding-top: 400px;
-    font-size: 80px;
+    font-size: 180px;
     color: white;   
 }
    
+.wrapper{
+    max-width: 1040px;
+    margin: 0 auto;
+}
 .text{
+    display: flex;
     border: 2px solid red;
     padding: 20px;
     border-radius: 20px;
-    margin: 100px 200px 100px 200px; 
+    margin: 100px 0; 
 
 }
 
@@ -87,6 +94,7 @@ h1{
 
 .t1,.t2,.t3{
     font-size: 15px; 
+    text-align: center;
 }
 
 .models{
@@ -95,12 +103,15 @@ h1{
 }
 
 .t4{
+    display: flex;
     padding: 20px; 
+    justify-content: right;
+    align-items: center;
 }
 
 .for-men{
     display: flex;
-    justify-content: center; 
+    justify-content:left; 
 }
 
 .footer{ 
@@ -117,6 +128,5 @@ h2{
 }
 
 .back{
-    margin: 27px 50px 20px 0;
-    
+    margin: 27px 50px 20px 0; 
 }
