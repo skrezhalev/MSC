@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.h-f{
+   width: 100%;
+   height: 100px;
+   background-color: blue;
+   color: white;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+h1{
+   margin: auto 30px;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 600px;
+    border: 5px solid black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: auto; 
+}
+
+@media only screen and (max-width: 390px){}
+
+@media only screen and (min-width: 391px) {
+.text{
+    width: 50%;
+}
+}
+    
