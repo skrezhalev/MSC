@@ -7,6 +7,7 @@
 .page{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .h-f{
@@ -32,7 +33,7 @@ h1{
     width: 100%;
     border: 5px solid black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: 20px;
+    margin: 10px;
     font-size: auto; 
 }
 
@@ -40,7 +41,7 @@ h1{
 
 @media only screen and (min-width: 391px) {
 .text{
-    width: 50%;
+    width: 40%;
 }
 }
     
