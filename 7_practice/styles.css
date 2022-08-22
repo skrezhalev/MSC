@@ -42,20 +42,20 @@ h1{
     justify-content: center;
     flex-wrap: wrap;
     width: 334px;
-    margin: 10px;
-    
+    margin: 10px;   
 }
 
-.illustration {
+.illustration {  
     width: 100%; 
-   
+    height: 600px;
     border: 1px solid red;
-    
+    object-fit: cover;
+
 }
 
 .illustration img{
     width: 100%; 
     display: block; 
-
+    object-fit: cover;
     
 }
