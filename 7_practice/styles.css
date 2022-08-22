@@ -55,3 +55,9 @@ h1{
 }
 
 
+@media only screen and (max-width: 400px){
+    .illustration{ 
+        object-fit: contain;
+        height: auto;
+}
+}
